@@ -135,13 +135,13 @@ p.footer {
 }
 
 #canvasDiv {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto; /* Center horizontally */
-        background-color: white;
-        border: 1px solid #ccc;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+/*         display: flex; */
+/*         align-items: center; */
+/*         justify-content: center; */
+/*         margin: 0 auto; /* Center horizontally */ */
+/*         background-color: white; */
+/*         border: 1px solid #ccc; */
+/*         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); */
     }
 
     /* Default: Large screens */
