@@ -134,3 +134,34 @@ p.footer {
     }
 }
 
+#canvasDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto; /* Center horizontally */
+        background-color: white;
+        border: 1px solid #ccc;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Default: Large screens */
+    #canvasDiv {
+        width: 425px;
+        height: 1000px;
+    }
+
+    /* If screen height < 1000px, use 100vh */
+    @media (max-height: 999px) {
+        #canvasDiv {
+            height: 100vh;
+        }
+    }
+
+    /* If width <= 425px, make it responsive */
+    @media (max-width: 425px) {
+        #canvasDiv {
+            width: 100%;
+            height: min(calc(100vw * 0.23875), 100vh);
+        }
+    }
+
