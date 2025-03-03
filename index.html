@@ -73,12 +73,10 @@
     <div id="canvasDiv" style="width: 320px;
         height: 764px;
         display: flex;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        background-color: white;
-        border: 1px solid #ccc;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);">
+        height: 100vh; /* Full screen height */
+        margin: 0; /* Remove default margin */">
         <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
         <div id="block-Box" style="display:block;width:100%;height:100%;"></div>
     </div>
