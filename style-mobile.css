@@ -128,10 +128,3 @@ p.footer {
     }
 }
 
-@media screen and (min-width: 1024px) {
-    #canvasDiv {
-        width: 800px; /* Set a fixed width for better gameplay experience */
-        height: 600px;
-        margin: auto; /* Center the game on desktop */
-    }
-}
