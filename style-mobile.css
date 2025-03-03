@@ -91,6 +91,12 @@ p.footer {
     background-size: 100%;
 }
 
+#GameCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 .progress-bar {
     background-color: #1a1a1a;
     position: absolute;
